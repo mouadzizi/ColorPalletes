@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mouad.zizi.learnReact"
+    },
+    "android": {
+      "package": "com.mouad.zizi.learnReact"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
